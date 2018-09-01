@@ -27,11 +27,13 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
+  List<TextEditingController> controllers;
+
   @override
   Widget build(BuildContext context) {
 
     //create text controllers
-    List<TextEditingController> controllers = new List();
+    controllers = new List();
     controllers.add(new TextEditingController());
     controllers.add(new TextEditingController());
     controllers.add(new TextEditingController());
