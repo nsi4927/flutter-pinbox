@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: new Center(
         child: new Row(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: pinBoxs(50.0, controllers, Colors.white, Colors.black, context, true),
+          children: pinBoxs(50.0, controllers, Colors.white, Colors.black, context, false),
         ),
       ),
     );

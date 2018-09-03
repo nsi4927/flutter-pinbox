@@ -57,6 +57,9 @@ List<Widget> pinBoxs(double width, List<TextEditingController> cons,
   focusNodes.add(new FocusNode());
   for(int i = 0; i < cons.length ; i++){
     focusNodes.add(new FocusNode());
+    if(i == cons.length - 1){
+      focusNodes[i+1] = null;
+    }
     boxs.add(pinBox(width, cons[i], focusNodes[i], focusNodes[i+1], boxColor, textColor,context, show));
   }
   return boxs;
