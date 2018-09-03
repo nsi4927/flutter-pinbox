@@ -27,18 +27,10 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  List<TextEditingController> controllers;
+  List<TextEditingController> controllers = <TextEditingController>[new TextEditingController(),TextEditingController(),TextEditingController(),TextEditingController()];
 
   @override
   Widget build(BuildContext context) {
-
-    //create text controllers
-    controllers = new List();
-    controllers.add(new TextEditingController());
-    controllers.add(new TextEditingController());
-    controllers.add(new TextEditingController());
-    controllers.add(new TextEditingController());
-
     return new Scaffold(
       appBar: new AppBar(
         title: new Text(widget.title),
