@@ -26,3 +26,4 @@ After you run the file you will get the result as two pictures below.
 
 ![image](https://github.com/nsi4927/flutter-pinbox/blob/master/imgs/PinBoxDemo1.png?raw=true)
 ![image](https://github.com/nsi4927/flutter-pinbox/blob/master/imgs/PinBoxDemo2.png?raw=true)
+![image](https://github.com/nsi4927/flutter-pinbox/blob/master/imgs/PinBoxDemo3.png?raw=true)
